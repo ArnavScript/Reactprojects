@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  background-color: #4bcdd6;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+  display: flex;
+}
+
+#container {
+  text-align: center;
+  backdrop-filter: blur(20px);
+  background-color: #d1848ab3;
+  border-radius: 15px;
+  height: auto;
+  padding: 20px;
+}
+
+button {
+  color: wheat;
+  background-color: #e61422b3;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=day10.0453ba0e.css.map */

@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#heading {
+  background: linear-gradient(to right, #1b1b19, #191182);
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  display: flex;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.profiles {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  display: flex;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.cards {
+  text-align: center;
+  border: 2px solid #000;
+  padding: 20px 10px;
+}
+
+input {
+  outline: 0;
+  width: 20vw;
+  height: 5vh;
+  margin-right: 15px;
+  padding: 5px;
+  font-size: 1.2vw;
+}
+
+button {
+  color: #fff;
+  background-color: #db59a1;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  width: 10vw;
+  height: 5vh;
+  margin-right: 15px;
+  font-size: 1vw;
+}
+/*# sourceMappingURL=githubusers.31ce6b14.css.map */

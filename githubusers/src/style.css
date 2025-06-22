@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heading{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,rgb(27, 27, 25),rgb(25, 17, 130));
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.profiles{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.cards{
+    text-align: center;
+    border: 2px solid black;
+    padding:20px 10px;
+}
+
+input{
+    height: 5vh;
+    width:20vw;
+    margin-right: 15px;
+    font-size: 1.2vw;
+    padding: 5px;
+    outline: 0;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: rgb(219, 89, 161);
+    border-radius: 10px;
+    height: 5vh;
+    width:10vw;
+    margin-right: 15px;
+    font-size: 1vw;
+    color: white;
+}
